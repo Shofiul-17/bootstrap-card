@@ -20,6 +20,9 @@ body{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
+.img-container{
+    
+}
 .img1 img{
     height: 200px;
     border-top-right-radius: 15px;
@@ -27,13 +30,47 @@ body{
     width: 100%;
 }
 .img2 img{
-    position: relative;
+    /* If you use position "relative" then you will get empty space in between profile image and person text */
+    /* position: relative; */
+    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    width: 150px;
-    height: 150px;
+    left: 140px;
+    /* z-index: 1; */
+    /* top: -75px; */
+    top: 135px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 7px solid #fff;
+}
+.card:hover .img2 img{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.main-text{
+    padding: 10px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 22px;
+    /* margin: 0 0 25px; */
+    margin: 90px 0 25px;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 20px;
+    color: darkcyan;
+    padding: 0 10px;
 }
