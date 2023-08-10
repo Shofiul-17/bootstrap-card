@@ -8,27 +8,72 @@
     
 }
 
+/* .grad1{
+    height: 20px;
+} */
+/* .grad1 h1{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #6201f4, #f106d6cb);
+    margin: 50px 100px;
+} */
 
+
+/* ==================================================================
+                         Header styles
+   ================================================================== */
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #6201f4, #f106d6cb);
+    margin: 50px 70px 0 70px;
+    padding: 15px;
+}
+
+/* ==================================================================
+                         Body styles
+   ================================================================== */
 body{
     background: #ddd;
+    /* background: pink; */
 }
+
+/* ==================================================================
+                         Profile-area styles
+   ================================================================== */
 .profile-area{
-    padding: 80px 0;
+    /* padding: 80px 0; */
+    padding: 20px 0;
+    /* background: red; */
 }
+.container{
+    /* background: purple; */
+}
+
+/* ==================================================================
+                         Card styles
+   ================================================================== */
 .card{
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    /* background: yellow; */
 }
-.img-container{
-    
-}
+
+/* ==================================================================
+                         Background Image styles
+   ================================================================== */
 .img1 img{
     height: 200px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     width: 100%;
 }
+
+/* ==================================================================
+                         Profile Image styles
+   ================================================================== */
 .img2 img{
     /* If you use position "relative" then you will get empty space in between profile image and person text */
     /* position: relative; */
@@ -46,14 +91,26 @@ body{
     border-radius: 50%;
     border: 7px solid #fff;
 }
+
+/* ==================================================================
+                         Mouse Hover on Image styles
+   ================================================================== */
 .card:hover .img2 img{
     border-color: darkcyan;
     transition: .7s;
 }
+
+/* ==================================================================
+                         Main-text styles
+   ================================================================== */
 .main-text{
     padding: 10px 0;
     text-align: center;
 }
+
+/* ==================================================================
+                         Main-text H2 (Header) styles
+   ================================================================== */
 .main-text h2{
     text-transform: uppercase;
     font-weight: 900;
@@ -61,16 +118,40 @@ body{
     /* margin: 0 0 25px; */
     margin: 90px 0 25px;
 }
+
+/* ==================================================================
+                         Main-text Description styles
+   ================================================================== */
 .main-text p{
     font-size: 16px;
     padding: 0 35px;
 }
+
+/* ==================================================================
+                         Socials styles
+   ================================================================== */
 .socials{
     text-align: center;
     padding-bottom: 20px;
 }
+/* ==================================================================
+                         Socials Icon styles
+   ================================================================== */
 .socials i{
     font-size: 20px;
     color: darkcyan;
     padding: 0 10px;
+}
+
+/* ==================================================================
+                         Footer styles
+   ================================================================== */
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    background-image: linear-gradient(to right, #6201f4, #f106d6cb);
+    margin: 0 70px 70px 70px;
+    padding: 10px;
 }
